@@ -33,3 +33,4 @@ Conversion for Kappa's Arknights homebrew into plutonium
   - [ ] Spells that work differently as new spells
 ## Other
 - [ ] Racial Progression
+- [ ] Racial Feats
