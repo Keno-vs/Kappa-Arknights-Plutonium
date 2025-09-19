@@ -27,7 +27,7 @@
 	"race": [
     {
         "name": "Archosauria",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "20",
         "ability": [
 			{
@@ -107,7 +107,7 @@
     },
 	{
         "name": "Anura",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "21",
         "ability": [
 			{
@@ -169,7 +169,7 @@
     },
 	{
         "name": "Anati",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -260,7 +260,7 @@
     },
 	{
 		"name": "Ægir",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -342,7 +342,7 @@
 	},
 	{
         "name": "Cautus",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -413,7 +413,7 @@
     },
 	{
         "name": "Caprinae/Elafia",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -493,7 +493,7 @@
 		"_versions": [
 			{
 				"name": "Caprinae/Elafia; Defensive",
-				"Source": "KAHB",
+				"Source": "KappaArknights",
 				"_mod": {
 					"entries": {
 						"mode": "replaceArr",
@@ -508,7 +508,7 @@
 			},
 			{
 				"name": "Caprinae/Elafia; Elementalist",
-				"Source": "KAHB",
+				"Source": "KappaArknights",
 				"_mod": {
 					"entries": {
 						"mode": "replaceArr",
@@ -523,7 +523,7 @@
 			},
 			{
 				"name": "Caprinae/Elafia; Defensive",
-				"Source": "KAHB",
+				"Source": "KappaArknights",
 				"_mod": {
 					"entries": {
 						"mode": "replaceArr",
@@ -540,7 +540,7 @@
     },
 	{
         "name": "Draco",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -605,7 +605,7 @@
     },
 	{
         "name": "Durin",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -697,7 +697,7 @@
     },
 	{
         "name": "Feline",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -783,7 +783,7 @@
     },
 	{
         "name": "Forte",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -859,7 +859,7 @@
     },
 	{
         "name": "Kuranta",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -929,7 +929,7 @@
     },
 	{
         "name": "Liberi",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1017,7 +1017,7 @@
     },
 	{
         "name": "Lung",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1119,7 +1119,7 @@
     },
 	{
         "name": "Lupo/Perro/Vulpo",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1198,7 +1198,7 @@
     },
 	{
         "name": "Oni",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1270,7 +1270,7 @@
     },
 	{
         "name": "Pythia",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1345,7 +1345,7 @@
     },
 	{
         "name": "Rebbah",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1453,7 +1453,7 @@
     },
 	{
         "name": "Sankta",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1547,7 +1547,7 @@
     },
 	{
         "name": "Sarkaz",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1663,7 +1663,7 @@
     },
 	{
         "name": "Ursus",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1736,7 +1736,7 @@
     },
 	{
         "name": "Vouivre",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1814,7 +1814,7 @@
     },
 	{
         "name": "Zalak",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1886,7 +1886,7 @@
     },
 	{
         "name": "Savra",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "page": "",
         "ability": [
 			{
@@ -1941,10 +1941,143 @@
         ]
     }
 	],
+	"class": [
+	{
+		"name": "CombatMedic",
+		"source": "KappaArknights",
+		"page": 54,
+		"hd": {
+			"number": 1,
+			"faces": 6
+		},
+		"multiclassing": {
+				"requirements": {
+					"int": 13
+				}
+		},
+		"proficiency": ["con", "int"],
+		"startingProficiencies": {
+			"armor": ["light"],
+			"weapons": ["simple"],
+			"skills": [{
+				"any": 2
+			}],
+			"tools": ["herbalism kit"]
+		},
+		"casterProgression": "full",
+		"spellcastingAbility": "int",
+		"cantripProgression": [
+			3,
+			3,
+			3,
+			4,
+			4,
+			4,
+			4,
+			4,
+			4,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5,
+			5
+		],
+		"preparedSpells": "<$level$> + <$int_mod$>",
+		"preparedSpellsChange": "restLong",
+		"classSpells": [
+		],
+		"startingEquipment": {
+			"additionalFromBackground": true,
+			"default": [
+				"(a) a {@item quarterstaff|phb} or (b) a {@item dagger|phb}",
+				"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+				"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}",
+				"A {@item spellbook|phb}"
+			],
+			"defaultData": [
+				{
+					"a": [
+						"quarterstaff|phb"
+					],
+					"b": [
+						"dagger|phb"
+					]
+				},
+				{
+					"a": [
+						"component pouch|phb"
+					],
+					"b": [
+						{
+							"equipmentType": "focusSpellcastingArcane"
+						}
+					]
+				},
+				{
+					"a": [
+						"scholar's pack|phb"
+					],
+					"b": [
+						"explorer's pack|phb"
+					]
+				},
+				{
+					"_": [
+						"spellbook|phb"
+					]
+				}
+			]
+		},
+		"classFeatures": [
+			"Spellcasting|CombatMedic|KappaArknights|1",
+			"Training in Magic and Healing|CombatMedic|KappaArknights|1"
+		]
+	}
+	],
+	"classFeature": [
+		{
+			"name": "Spellcasting",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 1,
+			"entries": [
+				"Your studies focused on the anatomy of bodies and their restoration allows you to cast combat medic spells. As a trained caster your studies are not limited and can focus your training in other fields of magic, although you can possibly learn anything, it requires extensive study and learning.",
+				"Spell List: Combat medics have their own spell list provided at the end of this class’ description.",
+				"Cantrips: At 1st level, you know three cantrips of your choice from the combat medic spell list. You learn additional combat medic cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Combat Medic table.",
+				"Spelbook At 1st level, you have a spellbook containing your spells. You might find other spells during your adventures. When you find a spell of 1st level or higher, you can add it to your spellbook if it is of a level for which you have spell slots and if you can spare the time to decipher and copy it. The spell can be from any spell list, and upon successfully learning and copying it into your spellbook it becomes a combat medic spell for you. For each level of the spell, the process takes 8 hours and costs 150 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells. If you try to copy spells that deal damage in any way, you need to spend four times the amount of gold and time to copy them into your spellbook, but if you try to copy a spell that can heal in any ways, you only need half the time and gold amount you would need.",
+				"Spell Slots: The Combat Medic table shows how many spell slots you have to cast your combat medic spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. You prepare the list of combat medic spells that are available for you to cast, choosing from the combat medic spell list. When you do so, choose a number of combat medic spells equal to your Intelligence modifier + your combat medic level (minimum of one spell). The spells must be of a level for which you have spell slots. For example, if you are a 3rd-level combat medic, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of combat medic spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.",
+				"Spellcasting Ability: Intelligence is your spellcasting ability for your combat medic spells. The power of your spells comes from extensive study and learning. You use your Intelligence whenever a combat medic spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a combat medic spell you cast and when making an attack roll with one.",
+				"Spell save DC = 8 + your proficiency bonus + your Intelligence modifier",
+				"Spell attack modifier = your proficiency bonus + your Intelligence modifier",
+				"Ritual Casting: You can cast a combat medic spell as a ritual if that spell has the ritual tag and you have the spell prepared.",
+				"Spellcasting Focus: You can use an arcane focus as a spellcasting focus for your combat medic spells."
+			]
+		},
+		{
+			"name": "Training in Magic and Healing",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 1,
+			"entries": [
+				"You gain proficiency in Arcana and Medicine. You can use your Intelligence instead of your Wisdom when making Medicine checks.",
+				"In addition, healing spells work differently for you, as you were trained to maximize their effectiveness. These spells and their descriptions are listed at the end of this class’ description."
+			]
+		}
+	],
 	"optionalfeature": [
 		{
 			"name": "Darkvision",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -1956,7 +2089,7 @@
 		},
 		{
 			"name": "Low Heat Vision",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -1967,7 +2100,7 @@
 		},
 		{
 			"name": "Scale Plated Body (Apply Natural Armor Manually)",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -1978,7 +2111,7 @@
 		},
 		{
 			"name": "Hardened Body",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -1989,7 +2122,7 @@
 		},
 		{
 			"name": "Camouflage",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -2000,7 +2133,7 @@
 		},
 		{
 			"name": "Amphibian Adaptation",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -2011,7 +2144,7 @@
 		},
 		{
 			"name": "Adapt Climber",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -2022,7 +2155,7 @@
 		},
 		{
 			"name": "Venomous Bite",
-			"source": "KAHB",
+			"source": "KappaArknights",
 			"page": 0,
 			"featureType": [
 				"KAHB:SBS"
@@ -2035,7 +2168,7 @@
 	"foundryOptionalfeature": [
     {
         "name": "Amphibian Adaptation",
-        "source": "KAHB",
+        "source": "KappaArknights",
         "effects": [
             {
                 "name": "Amphibian Adaptation",
@@ -2051,7 +2184,7 @@
     },
 	{
         "name": "Adapt Climber",
-        "source": "KAHB",
+        "source": "KappaArknights",
 		"effects": [
 			{
 				"name": "Adapt Climber",
