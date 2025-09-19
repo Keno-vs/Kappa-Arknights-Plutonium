@@ -50,7 +50,16 @@ Conversion for Kappa's Arknights homebrew into plutonium
   - [x] 19
   - [x] 20 
 - [ ] Class Spellist
-  - [ ] Spells that work differently as new spells
+  - [x] Level 1
+  - [x] Level 2
+  - [x] Level 3
+  - [ ] Level 4
+  - [ ] Level 5
+  - [ ] Level 6
+  - [ ] Level 7
+  - [ ] Level 8
+  - [ ] Level 9    
+  - [x] Spells that work differently as new spells
 ## Other
-- [ ] Racial Progression
+- [x] Racial Progression
 - [ ] Racial Feats
