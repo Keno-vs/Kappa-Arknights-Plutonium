@@ -2321,6 +2321,107 @@
 		"preparedSpells": "<$level$> + <$int_mod$>",
 		"preparedSpellsChange": "restLong",
 		"classSpells": [
+			"Blade Ward",
+			"Dancing Lights",
+			"Encode Thoughts|GGR",
+			"Friends",
+			"Guidance",
+			"Mage Hand",
+			"Message",
+			"Mind Sliver|TCE",
+			"Minor Illusion",
+			"Prestidigitation",
+			"Resistance",
+			"Sapping Sting|EGW",
+			"Shocking Grasp",
+			"Spare the Dying",
+			"Thaumaturgy",
+			"Vicious Mockery",
+			"Alarm",
+			"Bane",
+			"Bless",
+			"Cause Fear|XGE",
+			"Charm Person",
+			"Command",
+			"Comprehend Languages",
+			"Cure Wounds",
+			"Detect Evil and Good",
+			"Detect Magic",
+			"Detect Poison and Disease",
+			"Disguise Self",
+			"Expeditious Retreat",
+			"Feather Fall",
+			"Gift of Alacrity|EWG",
+			"CM Healing Word|KappaArknights",
+			"Heroism",
+			"Identify",
+			"Inflict Wounds",
+			"Jump",
+			"Longstrider",
+			"Mage Armor",
+			"Purify Food and Drink",
+			"Ray of Sickness",
+			"Sanctuary",
+			"Shield",
+			"Shield of Faith",
+			"Sleep",
+			"Aid",
+			"Alter Self",
+			"Arcane Lock",
+			"Barskin",
+			"Blindness/Deafness",
+			"Blur",
+			"Borrowed Knowledge|SCC",
+			"Calm Emotions",
+			"Crown of Madness",
+			"Darkvision",
+			"Detect Thoughts",
+			"Enhance Ability",
+			"Enlarge/Reduce",
+			"Enthrall",
+			"Fortune's Favor|EWG",
+			"Gentle Repose",
+			"CM Healing Spirit|KappaArknights",
+			"Hold Person",
+			"Invisibility",
+			"Kinetic Jaunt|SCC",
+			"Lesser Restoration",
+			"Magic Mouth",
+			"Mind Spike|XGE",
+			"Mirror Image",
+			"Misty Step",
+			"Prayer of Healing",
+			"Protection from Poison",
+			"Ray of Enfeeblement",
+			"See Invisibility",
+			"Spider Climb",
+			"Suggestion",
+			"Tasha's Mind Whip|TCE",
+			"Animate Dead",
+			"CM Aura of Vitality|KappaArknights",
+			"Beacon of Hope",
+			"Catnap|XGE",
+			"Counterspell",
+			"Dispel Magic",
+			"Enemies Abound|XGE",
+			"Fast Friends|AI",
+			"Fear",
+			"Feign Death",
+			"Fly",
+			"Glyph of Warding",
+			"Haste",
+			"Hypnotic Pattern",
+			"Incite Greed|AI",
+			"Intellect Fortress|TCE",
+			"Life Transference|XGE",
+			"CM Mass Healing Word|KappaArknights",
+			"Remove Curse",
+			"Revivify",
+			"Sending",
+			"Slow",
+			"Speak with Dead",
+			"Tongues",
+			"Water Breathing"
 		],
 		"startingEquipment": {
 			"additionalFromBackground": true,
@@ -2587,6 +2688,298 @@
 		}
 		
 	],
+	"spell": [
+		{
+			"name": "CM Healing Word",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				"v": true
+			},
+			"level": 1,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"number": 60,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A creature of your choice that you can see within range regains {@variantrule Hit Points|PHB} equal to {@damage 1d4 + @mod} + your spellcasting ability modifier. Creatures receiving this healing can use their reaction to stand up if they are prone. This spell has no effect on undead or constructs."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the Healing increases by the following way:"
+				]
+			},
+			{
+				"type": "table",
+				"name": "Using a Higher-Level Spell Slot",
+				"colLabels":  [
+					"Spellslot",
+					"Healing"
+				],
+				"rows": [
+					[
+						"2",
+						"{@damage 2d4 + @mod}"
+					],
+					[
+						"3",
+						"{@damage 3d6 + @mod}"
+					],
+					[
+						"4",
+						"{@damage 4d6 + @mod}"
+					],
+					[
+						"5",
+						"{@damage 5d8 + @mod}"
+					],
+					[
+						"6",
+						"{@damage 6d8 + @mod}"
+					],
+					[
+						"7",
+						"{@damage 7d10 + @mod}"
+					],
+					[
+						"8",
+						"{@damage 8d10 + @mod}"
+					],
+					[
+						"9",
+						"{@damage 9d12 + @mod}"
+					]
+				]
+			}
+			]
+		},
+		{
+			"name": "CM Healing Spirit",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"level": 2,
+			"school": "C",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"amount": 60,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
+				"Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} + your spellcasting ability modifier hit points to that creature (no action required). The spirit can’t heal constructs or undead.",
+				"As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					" When you cast this spell using a spell slot of 3rd level or higher, the healing increases {@scaledice 1d6|2-9|1d6} for each slot level above 2nd."
+				]
+			}
+			]
+		},
+		{
+			"name": "CM Aura of Vitality",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				"v": true
+				
+			},
+			"level": 3,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"amount": 30,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain {@dice 2d6} + spell level hit points."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the healing increases {@scaledice 1d6|3-9|1d6} for each slot level above 2nd."
+				]
+			}
+			]
+		},
+		{
+			"name": "CM Mass Healing Word",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				"v": true
+				
+			},
+			"level": 3,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "bonus"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"amount": 60,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to {@dice 1d4 + @mod} + your spellcasting ability modifier. Creatures receiving this healing can use their reaction to stand up if they are prone. Targets healing by this spell gain the effects of the Bless spell until the start of your (the casters) next turn. This spell has no effect on undead or constructs."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"When you cast this spell using a spell slot of 4th level or higher, the Healing increases by {@scaledice 1d4|3-9|1d4} for each slot level above 3rd."
+				]
+			}
+			]
+		},
+		{
+			"name": "CM Aura of Life",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				
+			},
+			"level": 4,
+			"school": "A",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"amount": 30,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a non-hostile, living creature regains {@dice 2d4} + your spellcasting ability modifier hit point when it starts its turn in the aura."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"When you cast this spell using a spell slot of 5th level or higher, the Healing increases by {@scaledice 1d4|4-9|1d4} for each slot level above 4rd."
+				]
+			}
+			]
+		},
+		{
+			"name": "CM Mass Cure Wounds",
+			"source": "KappaArknights",
+			"page": 60,
+			"components": {
+				
+			},
+			"level": 5,
+			"school": "V",
+			"time": [{
+				"number": 1,
+				"unit": "action"
+			}],
+			"range": {
+				"type": "point",
+				"distance": {
+					"amount": 60,
+					"unit": "feet"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@dice 3d12} + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+			],
+			"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "Using a Higher-Level Spell Slot",
+				"entries": [
+					"When you cast this spell using a spell slot of 6th level or higher, the Healing increases by {@scaledice 1d12|5-9|1d12} + your spellcasting ability modifier for each slot level above 5th."
+				]
+			}
+			]
+		}
+		
+	],
 	"optionalfeature": [
 		{
 			"name": "Darkvision",
@@ -2676,7 +3069,134 @@
 			"entries": [
 				"You gain a natural weapon. You are proficient with it and you use your Strength to attack with it. It deals 1d4+Str modifier piercing damage. Once per long rest you can try to poison a creature when you hit with your bite attack. The creature must succeed on a Constitution saving throw or take 3d8 poison damage and is poison for 1 minute. On a success it takes half the poison damage and it isn’t poisoned. The DC is equal to 8 + your proficiency bonus + your Constitution modifier."
 			]
-		}
+		},
+		{
+			"name": "Darkvision",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"senses": [{"darkvision": 60}],
+			"entries": [
+				"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+			]
+		},
+		{
+			"name": "Blindsight",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"senses": [{"blindsight": 10}],
+			"entries": [
+				"You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+		]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"senses": [{"tremorsense": 60}],
+			"entries": [
+				"You gain the ability to sense vibrations within a 30 feet radius if you are connected to a surface. Using this form of vibrolocation, you can pinpoint exactly where the vibrations originated from. This can be used to identify the location of unseen creatures. If a creature doesn’t move and doesn’t attack or cast a spell on its turn, then tremorsense can no longer detect that creature until it does any of the options mentioned above."
+		]
+		},
+		{
+			"name": "Low-Heat Vision",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"You can see heat sources originating from objects and creatures within 60 feet of you, allowing you to see invisible creatures if their body temperature is different from the environment. Illusions cannot be distinguished using this trait. This trait ceases to function in sunlight, otherwise it would be too straining for the eyes. This trait is unable to see through obscurement created by particles and spells."
+		]
+		},
+		{
+			"name": "Precise Perception",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"Your natural vision is enhanced. You can focus on and see things clearly in a 1 mile radius. You also gain a permanent +2 on your perception checks relying on sight. This feature doesn’t improve your special senses radius, like darkvision, blindsight, etc"
+		]
+		},
+		{
+			"name": "Bloodhound Smell",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"You gain advantage on Survival and Perception check spotting and tracking bloodied (having half of less HP) creatures. If you have advantage on those checks from other sources, this feature grants a +5 bonus on the check instead."
+		]
+		},
+		{
+			"name": "Hyper Focused Hearing",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"You gain advantage on Perception checks that rely on hearing. You can hear creatures' heartbeat within 30 feet of you, and can use this ability to detect lies, giving you a +2 bonus on Insight checks against humanoids within that radius. Creatures suffer a -2 penalty on their stealth checks against you."
+		]
+		},
+		{
+			"name": "Enhanced Special Vision",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"Can be selected multiple times",
+				"Your racial special visions range, such as Darkvision, Tremorsense, Blindsight, Low-Heat Vision, Heat Vision and Truesight, increased by an amount equal to their base value, for example if your race grants you Darkvision in a range of 60 feet, this feature increases it range by an additional 60 feet. This feature will increase the range of other racial special senses obtained on later levels as well."
+		]
+		},
+		{
+			"name": "Heat Vision",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"prerequisite": [
+				{
+					"feature": ["Low-Heat Vision"]
+				}
+			],
+			"entries": [
+				"Your Low-Heat Vision feature will be replaced by this feature. It will provide the same bonuses as Low-Heat Vision, but you can now use it in direct sunlight as well and can see through obscurement created by spells and particles. Illusions cannot be distinguished using this trait. When you use it in direct sunlight it will have a range of 60 feet, but will have a range of 180 feet in other conditions."
+		]
+		},
+		{
+			"name": "Lifespan Extension",
+			"source": "KappaArknights",
+			"page": 0,
+			"featureType": [
+				"KAHB:RP"
+			],
+			"entries": [
+				"Your natural lifespan is expanded 5 times of its natural length. Your body won’t get younger, but your aging will slow down accordingly. Your body also gets more resilient against originium. You gain a permanent +2 on your Constitution saving throw against Oripathy. Choosing this feature multiple times will provide the above mentioned benefits again and will also provide additional benefits listed below in phases. (Phase 2 meaning choosing this feature 2 times and so on)",
+				{
+					"type": "list",
+					"items": [
+						"Phase 2: Your BOCD score will decrease by 2 x your Constitution modifier on a long rest and Oripathy medication twice as effective on you.",
+						"Phase 3: You will only need to roll a Constitution saving throw on every second long rest against Oripathy, but your BOCD score will still decrease on every long rest. You will also gain advantage on Constitution saving throws against Oripathy",
+						"Phase 4: You stop aging. You can no longer die naturally and become immune to spells that could age you, unless you are willing. You become proficient in Constitution saving throws, or if you are already proficient in it, you will have advantage on it in every situation. "
+					]
+				}
+			]
+		}	
 	],
 	"foundryOptionalfeature": [
     {
