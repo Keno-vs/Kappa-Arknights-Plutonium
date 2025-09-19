@@ -1966,6 +1966,336 @@
 		},
 		"casterProgression": "full",
 		"spellcastingAbility": "int",
+		"classTableGroups": [
+				{
+					"colLabels" : ["Empowerment Points"],
+					"rows": [
+						[0],
+						[2],
+						[3],
+						[4],
+						[5],
+						[6],
+						[7],
+						[8],
+						[9],
+						[15],
+						[16],
+						[17],
+						[18],
+						[19],
+						[20],
+						[21],
+						[27],
+						[28],
+						[29],
+						[30]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=CombatMedic}"
+					],
+					"rows": [
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						],
+						[
+							5
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=CombatMedic}",
+						"{@filter 2nd|spells|level=2|class=CombatMedic}",
+						"{@filter 3rd|spells|level=3|class=CombatMedic}",
+						"{@filter 4th|spells|level=4|class=CombatMedic}",
+						"{@filter 5th|spells|level=5|class=CombatMedic}",
+						"{@filter 6th|spells|level=6|class=CombatMedic}",
+						"{@filter 7th|spells|level=7|class=CombatMedic}",
+						"{@filter 8th|spells|level=8|class=CombatMedic}",
+						"{@filter 9th|spells|level=9|class=CombatMedic}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
+					]
+				}
+			],
 		"cantripProgression": [
 			3,
 			3,
@@ -2036,7 +2366,20 @@
 		},
 		"classFeatures": [
 			"Spellcasting|CombatMedic|KappaArknights|1",
-			"Training in Magic and Healing|CombatMedic|KappaArknights|1"
+			"Training in Magic and Healing|CombatMedic|KappaArknights|1",
+			"Healing Empowerment|CombatMedic|KappaArknights|2",
+			"Quickened Healing|CombatMedic|KappaArknights|3",
+			"Ability Score Improvement|CombatMedic|KappaArknights|4",
+			"Ward of Life|CombatMedic|KappaArknights|6",
+			"Ability Score Improvement|CombatMedic|KappaArknights|8",
+			"Healing Empowerment|CombatMedic|KappaArknights|10",
+			"Ability Score Improvement|CombatMedic|KappaArknights|12",
+			"Medical Reassurance|CombatMedic|KappaArknights|14",
+			"Ability Score Improvement|CombatMedic|KappaArknights|16",
+			"Healing Empowerment|CombatMedic|KappaArknights|17",
+			"Glyph of Persistence|CombatMedic|KappaArknights|18",
+			"Ability Score Improvement|CombatMedic|KappaArknights|19",
+			"Sanctuary of Life|CombatMedic|KappaArknights|20"
 		]
 	}
 	],
@@ -2072,7 +2415,177 @@
 				"You gain proficiency in Arcana and Medicine. You can use your Intelligence instead of your Wisdom when making Medicine checks.",
 				"In addition, healing spells work differently for you, as you were trained to maximize their effectiveness. These spells and their descriptions are listed at the end of this class’ description."
 			]
+		},
+		{
+			"name": "Healing Empowerment",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you begin to manipulate your healing spells in the heat of combat to help your allies overcome any situation. You have a pool of empowerment points that you can use, starting with 2 points, and you gain more as you reach higher levels, as shown in the Empowerment Points column of the Combat Medic table. You can never have more empowerment points than shown on the table for your level. You can only use your empowerment point on spells that heal or grant temporary hit points. You can use multiple options at the same time, spending empowerment points following the rules of each option. You regain all spent empowerment points when you finish a long rest.",
+				"At level 10 and 17, your pool of empowerment points will increase by 5 each. This increase is represented in the Empowerment Points column of the Combat Medic table.",
+				"Flexible Casting: You can use your empowerment points to cast spells that can heal or grant temporarily hit points. To do so, expand empowerment points equal to the spell level you are casting it. By doing so you will use your action or bonus action according to the spells casting time and it will count as you would normally cast a spell.",
+				"Empowerment Options:",
+				{
+					"type": "list",
+					"items": [
+						"Reflex Enhancement: By spending 1 empowerment point, you can grant the target +2 to its AC until the start of your next turn. If your spell has multiple targets, you can spend 1 additional empowerment point for each additional target you wish to be affected.",
+						"Cleansing: If the target is affected by an effect that lets it do a saving throw against it, you can spend 1 empowerment point to let the target immediately roll another saving throw against that effect. If your spell has multiple targets, you can spend 1 additional empowerment point for each additional target you wish to be affected. You can only use this option, if the effect lasts 1 hour or less.",
+						"Protection: You can grant the target temporary hit points equal to your Intelligence modifier x empowerment points spent. If your spell has multiple targets, you can distribute these temporary hit points between them however you like. The temporary hit points lasts until the next long rest.",
+						"Inspiration: You can spend 2 empowerment points to grant the target the effects of the Bless spell until the start of your next turn. If your spell has multiple targets, you can spend 2 additional empowerment points for each additional target you wish to be affected. When you reach level 10 in this class the extra dice will become a d6 instead of a d4, and at level 17 it will become a d8.",
+						"Sanctuary: You can spend 2 empowerment points to grant the target the effects of the Sanctuary spell until the start of the target's next turn. The spell save DC is your spell save DC. If your spell has multiple targets, you can spend 2 additional empowerment points for each additional target you wish to be affected."
+					]
+				}
+				
+			]
+		},
+		{
+			"name": "Quickened Healing",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you learn how to infuse your healing magic into other spells or make them extra effective. You can manipulate the casting time of your healing spells if they have a casting time of an action or bonus action and they heal or grant temporary hit points. You can cast these spells with a casting time of an action as a bonus action and vice versa.",
+				"In addition, you can cast more than one spell of 1st level or higher in your turn, but only if both of these spells heal or grant temporary hit points. You will still need to follow the other rules of spellcasting."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Ward of Life",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 6,
+			"entries": [
+				"After you reach 6th level, you learn to reuse the fragments of your healing magic. You gain a pool of magical ward. This pool has a maximum capacity of 3 times of your combat medic level. As a reaction you can project this ward on yourself or another creature within 30 feet of you that you can see when they receive damage and reduce that damage by an amount you spend from this pool. You can charge this pool by casting spells of 1st level or higher that heal or grant temporary hit points. You gain points to this pool equal to the spells level you casted."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Healing Empowerment",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 10,
+			"entries": [
+				"At level 10 and 17, your pool of empowerment points will increase by 5 each. This increase is represented in the Empowerment Points column of the Combat Medic table."
+				
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Medical Reassurance",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 14,
+			"entries": [
+				"When you reach 14th level, you gain the ability to stabilize the effectiveness of your healing spell. When you roll 1 or 2 on a spell that grants healing or temporarily hit point, you can reroll those dice, but you must use the new value."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Healing Empowerment",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 17,
+			"entries": [
+				"At level 10 and 17, your pool of empowerment points will increase by 5 each. This increase is represented in the Empowerment Points column of the Combat Medic table."
+				
+			]
+		},
+		{
+			"name": "Glyph of Persistence",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 18,
+			"entries": [
+				"When you reach 18th level, you learn to inscribe a glyph on the body of a creature which keeps their soul and body together for a time. You can spend 10 minutes with a creature to inscribe this glyph onto their body and it will last for 8 hours. Whenever the creature would fall to 0 hit point, the glyph will activate and will prevent it from falling unconscious due to 0 hit point. It still must make death saving throws, and it suffers the normal effects of taking damage while at 0 hit points. However, if it would die due to failing death saving throws, it doesn’t die until the glyph lasts, and it dies then only if it still has 0 hit points. After the activation of the glyph keep track of the damage suffered in negative value. Healing won’t negate this negative health instantly, instead, add the values together as you would track your health, but if you would die due to failed death saves, healing wouldn’t be able to heal you back above 0 hit point. The glyph will stay in effect for an hour after activation and if the creature would reach its maximum hit point in negative value, meaning suffering that much damage, the glyph would lose its effect, due to the creature’s body suffering too much damage and most likely lose parts or receive permanent damage."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Sanctuary of Life",
+			"source": "KappaArknights",
+			"page": 55,
+			"className": "CombatMedic",
+			"classSource": "KappaArknights",
+			"level": 20,
+			"entries": [
+				"At 20th level you gain a protective aura. As an action, you create a 60-foot radius aura centered on you, which moves with you. You and creatures of your choice gain the benefits of the aura. The aura lasts 1 minute and can be ended early freely. You can use your Healing Empowerment options on creatures within the aura (no action required) as you would cast a healing spell on them, but you still need to spend the empowerment point for the effects. You can use this ability once and you regain the ability to do so when you finish a long rest. The aura provides the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Targets receive 15 points of healing at the start of their turn within the aura.",
+						"Targets gain resistance against damage inflicted by spells and magical effects.",
+						"Targets gain the benefits of half cover.",
+						"While the aura is active, having 0 hit points doesn’t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don’t die until the aura lasts, and you die then only if you still have 0 hit points."
+					]
+				}
+			]
 		}
+		
 	],
 	"optionalfeature": [
 		{
