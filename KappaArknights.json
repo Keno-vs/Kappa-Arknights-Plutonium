@@ -1603,7 +1603,9 @@
 							"1": {
 								"_": [
 									{
-										"choose": "level=0|class=Sorcerer;Warlock",
+										"choose": "level=0|class=Sorcerer;Warlock"
+									},
+									{
 										"choose": "level=0|class=Sorcerer;Warlock"
 									}
 								]
