@@ -2704,7 +2704,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2785,7 +2785,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2830,7 +2830,7 @@
 				"type": "radius",
 				"distance": {
 					"amount": 30,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2874,7 +2874,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2912,7 +2912,7 @@
 				"type": "radius",
 				"distance": {
 					"amount": 30,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2955,7 +2955,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
