@@ -2827,7 +2827,7 @@
 				"unit": "action"
 			}],
 			"range": {
-				"type": "emanation",
+				"type": "radius",
 				"distance": {
 					"amount": 30,
 					"unit": "feet"
@@ -2909,7 +2909,7 @@
 				"unit": "action"
 			}],
 			"range": {
-				"type": "emanation",
+				"type": "radius",
 				"distance": {
 					"amount": 30,
 					"unit": "feet"
