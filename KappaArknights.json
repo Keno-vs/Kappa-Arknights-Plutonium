@@ -2703,7 +2703,7 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"number": 60,
+					"amount": 60,
 					"unit": "feet"
 				}
 			},
