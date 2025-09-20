@@ -2703,8 +2703,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"number": 60,
-					"unit": "feet"
+					"amount": 60,
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2785,7 +2785,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2827,10 +2827,10 @@
 				"unit": "action"
 			}],
 			"range": {
-				"type": "emanation",
+				"type": "radius",
 				"distance": {
 					"amount": 30,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2874,7 +2874,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2909,10 +2909,10 @@
 				"unit": "action"
 			}],
 			"range": {
-				"type": "emanation",
+				"type": "radius",
 				"distance": {
 					"amount": 30,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
@@ -2955,7 +2955,7 @@
 				"type": "point",
 				"distance": {
 					"amount": 60,
-					"unit": "feet"
+					"type": "feet"
 				}
 			},
 			"duration": [
