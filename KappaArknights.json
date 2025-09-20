@@ -445,10 +445,8 @@
 						"1": {
 							"_": [
 								{
-									"choose": "level=0"
-								},
-								{
-									"choose": "level=0"
+									"choose": "level=0",
+									"count": 2
 								}
 							]
 						}
@@ -1603,10 +1601,8 @@
 							"1": {
 								"_": [
 									{
-										"choose": "level=0|class=Sorcerer;Warlock"
-									},
-									{
-										"choose": "level=0|class=Sorcerer;Warlock"
+										"choose": "level=0|class=Sorcerer;Warlock",
+										"count": 2
 									}
 								]
 							}
